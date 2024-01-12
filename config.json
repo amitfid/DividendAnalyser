@@ -1,5 +1,5 @@
 {
-    "apiKey": "[ENTER_KEY]",
+    "apiKey": "[API_KEY]",
     "url": "https://seeking-alpha.p.rapidapi.com/symbols/",
     "outputFile": "output.xlsx",
     "fields": {

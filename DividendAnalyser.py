@@ -2,11 +2,10 @@ import requests
 import json
 import pandas
 from datetime import datetime
-import os
 
 # Read symbols from the JSON file
-with open('symbols.json') as file:
-    symbols = json.load(file).get('symbols')
+with open('symbols.txt') as file:
+    symbols = file.read().split('\n')
 
 # Read config from JSON file
 with open('config.json') as file:
