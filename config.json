@@ -1,6 +1,7 @@
 {
-    "apiKey": "af5db32b8dmsh0efe7b07f1af91fp1f88cfjsn1f73bc13916a",
+    "apiKey": "[ENTER_KEY]",
     "url": "https://seeking-alpha.p.rapidapi.com/symbols/",
+    "outputFile": "output.xlsx",
     "fields": {
         "get-profile": {
             "Company Name": "companyName",

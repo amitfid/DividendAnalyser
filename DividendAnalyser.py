@@ -2,6 +2,7 @@ import requests
 import json
 import pandas
 from datetime import datetime
+import os
 
 # Read symbols from the JSON file
 with open('symbols.json') as file:
@@ -59,6 +60,6 @@ for apiEndpoint in fields:
             result[symbolId][keyDisplayName] = objectData
 
 dataFrame = pandas.DataFrame.from_dict(result, orient='index')
-dataFrame.to_excel('output.xlsx', index=True)
 
-print(result)
+outputFileName = config['outputFile']
+dataFrame.to_excel(outputFileName, index=True)
