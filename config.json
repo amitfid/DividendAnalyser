@@ -1,0 +1,28 @@
+{
+    "apiKey": "af5db32b8dmsh0efe7b07f1af91fp1f88cfjsn1f73bc13916a",
+    "url": "https://seeking-alpha.p.rapidapi.com/symbols/",
+    "fields": {
+        "get-profile": {
+            "Company Name": "companyName",
+            "Sector Name": "sectorname",
+            "Primary Name": "primaryname",
+            "Last Daily rtTime": "lastDaily:rtTime",
+            "Last Daily close": "lastDaily:close"
+        },
+        "get-summary": {
+            "Dividend amount": "dividends:amount",
+            "Dividend date": "dividends:date",
+            "Dividend exDate": "dividends:exDate",
+            "Dividend payDate": "dividends:payDate",
+            "Dividend recordDate": "dividends:recordDate",
+            "Dividend declareDate": "dividends:declareDate",
+            "Dividend Growth": "dividendGrowth",
+            "Dividend Yield Fwd": "divYieldFwd",
+            "Dividend Yield Ttm": "divYieldTtm",
+            "Payout Ratio": "payoutRatio",
+            "Dividend Rate Fwd": "divRateFwd",
+            "Dividend Rate Ttm": "divRateTtm",
+            "Dividend Distribution": "divDistribution"
+        }
+    }
+}
